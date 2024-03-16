@@ -1,0 +1,205 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* Class */ 
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.7em;
+}
+.container{
+  max-width: 1100px;
+  margin: auto;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.cta{
+  display: inline-block;
+  padding: 07px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 03px;
+  background: #3170ff;
+}
+.lead{
+  font-size: 16px;
+  padding: 10px 10px;
+  text-align: justify;
+}
+.bg-primary{
+  width: 100%;
+}
+.bg-primary-1{
+  background: #ddd;
+  padding: 10px 22px;
+  color: #333;
+  text-align: center;
+  display: inline-block;
+}
+/* Class Ends */ 
+
+/* Navbar Start */ 
+#navbar{
+  position: sticky;
+  top: 0;
+  background: #3170ff;
+  overflow: auto;
+  z-index: 1000;
+}
+#navbar h1{
+  float: left;
+  padding-top: 20px;
+}
+#navbar ul{
+  list-style: none;
+  float: right;
+}
+#navbar ul li{
+  float: left;
+}
+#navbar ul li a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.5s;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current
+{
+  background: #4397ea;
+  transition: all 0.3;
+}
+/* Navbar Close */ 
+
+/* Home Starts */ 
+#home{
+  background: url('Ps5c.png') no-repeat
+  center center/cover;
+  height: 600px;
+}
+.home-content{
+  padding-top: 170px;
+  color: #333;
+}
+.home-content h2{
+  font-size: 30px;
+  line-height: 1.9em;
+}
+.home-content p{
+  font-size: 20px;
+  line-height: 1.7em;
+  margin-bottom: 20px;
+}
+.home-content a:hover{
+  background: #4397ea;
+  transition: all 0.3;
+}
+/* Home Close */
+
+/* About Start */
+#about{
+  margin-top: 40px;
+}
+/* About Ends */ 
+
+/* Showcase Starts */
+#showcase{
+  margin-top: 40px;
+}
+#showcase h4{
+  margin-top: 30px;
+}
+.course-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.course-card{
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+.course-card h5{
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.course-card p{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.course-card .cta{
+  display: inline-block;
+  padding: 7px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 3px;
+  background: #3170ff;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.course-card .cta:hover{
+  background: #4397ea;
+}
+/* Showcase Ends */
+
+/* Project Starts */
+#projects{
+  margin-top: 40px;
+}
+#projects h3{
+  margin-top: 30px;
+}
+.project-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.project-thumbnail{
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+.project-thumbnail h4{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.project-thumbnail p{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.project-thumbnail .cta{
+  display: inline-block;
+  padding: 7px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 3px;
+  background: #3170ff;
+  color: white;
+  text-decoration: none;
+}
+.project-thumbnail .cta:hover{
+  background: #4397ea;
+}
+/* Project Ends */
+
+/* Footer Start*/
+footer{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #333;
+}
+/* Footer Ends*/

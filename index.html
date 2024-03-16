@@ -1,0 +1,169 @@
+<!-----------------------------------------------------------------------------
+program: Building a Personal Website 
+author: Anthany Toum
+course: CIDS 225-01 
+date: 2023/08/22
+assignment: #3
+description: The objective of this assignment is to demonstrate your proficiency 
+             in HTML and CSS by creating a personal website. Build a digital 
+             showcase about your favorite classes in college, highlighting 
+             interesting courses, projects, and academic achievements.
+------------------------------------------------------------------------------>
+<!-----------------------------------------------------------------------------
+Note: For the links to work you have to copy and paste this 
+https://mycollegeshowcase.dollasignant.repl.co to a new tab because the links 
+will not work in webview. 
+------------------------------------------------------------------------------>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My College Showcase</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <!-- Navbar Start -->
+    <nav id="navbar">
+      <div class="container">
+        <h1><a href="#">College Showcase</a></h1>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#showcase">Showcase</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar Ends -->
+
+    <!-- Home Start -->
+    <div id="home">
+      <div class="container">
+        <div class="home-content">
+          <h2>Welcome to My College Showcase</h2>
+          <p class="lead">
+            In my academic journey, I've consistently demonstrated a commitment
+            to excellence, and my decision to major in Computer Science has not 
+            only deepened my understanding of technology but also ignited a 
+            passion for problem-solving and innovation within this dynamic field,
+            driving me to contribute my expertise to real-world challenges and
+            propel technology frontiers.
+          </p>
+          <a href="#showcase" class="cta" >Explore My Achievments</a>
+        </div>
+      </div>
+    </div>
+    <!-- Home Ends -->
+  
+  <!-- About Start -->
+  <section id="about">
+    <div class="container">
+      <h3 class="bg-primary"><span class="bg-primary-1">About Me</span></h3>
+      <p class="lead">
+        As an enthusiastic student pursuing a major in Computer Science. I am
+        deeply committed to the pursuit of knowledge and the mastery of coding
+        skills. Guided by my passion for technology, I am resolutely dedicated 
+        to expanding my understanding of complex algorithms, software development
+        methodologies, and cutting-edge programming languages.
+      </p>
+      <p class="lead">
+        Through my academic journey, I am driven by a desire to not only acquire 
+        expertise but to also utilize my coding prowess to create innovative 
+        solutions that address real-world challenges. With a fervent aspiration
+        to harness the power of coding for positive change, I eagerly embrace 
+        every opportunity to refine my skills and contribute meaningfully to 
+        ever-evolving landscape of technology.
+      </p>
+    </div>
+  </section>
+  <!-- About Ends -->
+
+  <!-- Showcase Starts -->
+  <section id="showcase">
+    <div class="container">
+      <h3 class="bg-primary"><span class="bg-primary-1">Showcase</span></h3>
+      <p class="lead">
+        Welcome to the heart of my academic voyage. Below you will find a 
+        curated selection of my favorite courses and projects that have been 
+        instrumented in shaping my academic prowess.
+      </p>
+    <!-- Favorite Courses -->
+    <h4>Favorite Courses</h4>
+    <div class="course-grid">
+    <div class="course-card">
+      <h5>Programming 2</h5>
+      <p>
+        Course Description: Delve into the intricates of Programming 2.
+        From Arrays to 2-dimensional Arrays, this course equipped me 
+        with the skills to navigate complex data structures and manipulate
+        data effectively.
+      </p>
+      <a href="https://www.youtube.com/playlist?list=PLBlnK6fEyqRiraym3T703apTvEZLaSVtJ"
+        target="_blank"
+        class="cta">Explore Course</a>
+    </div>
+    <div class="course-card">
+      <h5>Object Oriented Programming</h5>
+      <p>
+        Course Description: In this captivating course, I delved into 
+        Object Oriented Programming. Through method overriding and contructors,
+        I not only gained proficiency but also cultivated a robust understanding
+        of coding with java.
+      </p>
+      <a href="https://www.youtube.com/playlist?list=PL_c9BZzLwBRLW7Kw8bqc_PJqAnjCJI63P"
+        target="_blank"
+        class="cta">Explore Course</a>
+      </a>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- Showcase Ends-->
+
+  <!-- Project Starts -->
+  <section id="projects">
+    <div class="container">
+      <h3 class="bg-primary"><span class="bg-primary-1">Fascinating Projects</span></h3>
+      <div class="project-grid">
+        <div class="project-thumbnail">
+          <h4>Pokedex</h4>
+          <p>
+            Project Description: The goal is to build a Pokédex. A Pokédex is an 
+            electronic Pokémon index that allows you to search a number of Pokemons(1-802). 
+            In the game, a Pokedex helps a player keep track of which Pokemon they 
+            encounter and catch throughout their adventure. The Pokédex catalogs 
+            useful information about various Pokémon species such as height, weight, type 
+            and a description of the Pokémon in question. 
+          </p>
+          <a href="https://github.com/DunnoBee/Bee23/blob/main/Pokedex/Main.java"
+            target="_blank"
+            class="cta">Explore Project</a>
+        </div>
+
+        <div class="project-thumbnail">
+          <h4>Fantasy Battle</h4>
+          <p>
+            Project Description: My task is to implement a simple battle 
+            simulator in Java. This assignment aims to assess my understanding 
+            of inheritance, class hierarchies, and method overriding all while 
+            immersing me in the practical intricacies of object-oriented design. 
+            By creating this engaging simulation, I hope to not only showcase 
+            my coding abilities but also demonstrate my creativity in envisioning 
+            interactive experiences.
+          </p>
+          <a href="https://github.com/DunnoBee/Bee23/blob/main/FantasyBattle.java"
+            target="_blank"
+            class="cta">Explore Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  </header>
+  <!-- Project Ends -->
+  <footer>
+    <p>&copy; 2023 Anthany Toum. All rights reserved.</p>
+  </footer>
+</body>
+</html>
